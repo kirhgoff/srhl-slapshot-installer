@@ -1,6 +1,6 @@
 !include "MUI.nsh"
 
-Outfile "rshl-slapshot-installer.exe"
+Outfile "srhl-slapshot-installer.exe"
 
 InstallDirRegKey HKLM "SOFTWARE\Valve\Steam" InstallPath
 
