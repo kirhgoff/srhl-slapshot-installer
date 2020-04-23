@@ -4,6 +4,7 @@ Outfile "rshl-slapshot-installer.exe"
 
 InstallDirRegKey HKLM "SOFTWARE\Valve\Steam" InstallPath
 
+!define MUI_ICON ".\logo\srhl.ico"
 Name "SHRL Slapshot Textures"
 !define MUI_DIRECTORYPAGE_TEXT_TOP  "This installer is going to copy 5 texture files (all are PNG pictures) into your Slapshot installation folder to make it look like SRHL league game. Please could you help us to find your Steam folder? Don't worry, we will find the path to Slapshot folders from there."
 
